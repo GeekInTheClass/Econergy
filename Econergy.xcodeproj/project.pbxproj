@@ -12,6 +12,8 @@
 		6627563E2005B45D00B3E64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6627563C2005B45D00B3E64A /* Main.storyboard */; };
 		662756402005B45D00B3E64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6627563F2005B45D00B3E64A /* Assets.xcassets */; };
 		662756432005B45D00B3E64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662756412005B45D00B3E64A /* LaunchScreen.storyboard */; };
+		66283867202400B4001823B2 /* StoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66283866202400B4001823B2 /* StoreTableViewController.swift */; };
+		6628386B202404BE001823B2 /* StoreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6628386A202404BE001823B2 /* StoreDetailsViewController.swift */; };
 		66F051C92022C01800DC71EF /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F051C82022C01800DC71EF /* Store.swift */; };
 		66F051CB2022C4E200DC71EF /* EconergyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F051CA2022C4E200DC71EF /* EconergyTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 		6627563F2005B45D00B3E64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		662756422005B45D00B3E64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		662756442005B45D00B3E64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66283866202400B4001823B2 /* StoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewController.swift; sourceTree = "<group>"; };
+		6628386A202404BE001823B2 /* StoreDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailsViewController.swift; sourceTree = "<group>"; };
 		66F051C82022C01800DC71EF /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		66F051CA2022C4E200DC71EF /* EconergyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EconergyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +70,8 @@
 				662756442005B45D00B3E64A /* Info.plist */,
 				66F051C82022C01800DC71EF /* Store.swift */,
 				66F051CA2022C4E200DC71EF /* EconergyTableViewController.swift */,
+				66283866202400B4001823B2 /* StoreTableViewController.swift */,
+				6628386A202404BE001823B2 /* StoreDetailsViewController.swift */,
 			);
 			path = Econergy;
 			sourceTree = "<group>";
@@ -143,10 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6628386B202404BE001823B2 /* StoreDetailsViewController.swift in Sources */,
 				6627563B2005B45D00B3E64A /* ViewController.swift in Sources */,
 				66F051CB2022C4E200DC71EF /* EconergyTableViewController.swift in Sources */,
 				662756392005B45D00B3E64A /* AppDelegate.swift in Sources */,
 				66F051C92022C01800DC71EF /* Store.swift in Sources */,
+				66283867202400B4001823B2 /* StoreTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
