@@ -12,12 +12,10 @@ import UIKit
 class Store {
     var title:String
     var coverImage:UIImage
-    var description:String
     
-    init(title:String, coverImage:UIImage, description:String) {
+    init(title:String, coverImage:UIImage) {
         self.title = title
         self.coverImage = coverImage
-        self.description = description
     }
 
 }

@@ -21,11 +21,23 @@ class EconergyTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
-        var store1 = Store(title: "Shop", coverImage: #imageLiteral(resourceName: "shop"), description: "에코포인트 이용")
-        var store2 = Store(title: "Donation", coverImage: #imageLiteral(resourceName: "donation"), description: "에코포인트 기부")
+        var store1 = Store(title: "Starbucks", coverImage: #imageLiteral(resourceName: "starbucks"))
+        var store2 = Store(title: "CaffeBene", coverImage: #imageLiteral(resourceName: "caffebene"))
+        var store3 = Store(title: "HOLLYS", coverImage: #imageLiteral(resourceName: "hollys"))
+        var store4 = Store(title: "TOM N TOMS", coverImage: #imageLiteral(resourceName: "TomTom"))
+        var store5 = Store(title: "EDIYA", coverImage: #imageLiteral(resourceName: "EDIYA"))
+        var store6 = Store(title: "A TWOSOME PLACE", coverImage: #imageLiteral(resourceName: "Twosome"))
+        var store7 = Store(title: "Angel in-us", coverImage: #imageLiteral(resourceName: "Angelinus"))
+        var store8 = Store(title: "The Coffee Bean", coverImage: #imageLiteral(resourceName: "CoffeeBean"))
         
         stores.append(store1)
-
+        stores.append(store2)
+        stores.append(store3)
+        stores.append(store4)
+        stores.append(store5)
+        stores.append(store6)
+        stores.append(store7)
+        stores.append(store8)
     }
 
     override func didReceiveMemoryWarning() {
@@ -50,6 +62,11 @@ class EconergyTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         // Configure the cell...
+        
+        var store = stores[indexPath.row]
+        cell.textLabel?.text = store.title
+        cell.imageView?.image = store.coverImage
+
 
         return cell
     }
